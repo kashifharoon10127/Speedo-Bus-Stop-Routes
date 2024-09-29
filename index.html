@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speedo Bus Route Finder</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to external CSS -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h2>Find Your Bus Route</h2>
+
+        <div class="form-group">
+          <label for="startPoint">Start Point:</label>
+          <select id="startPoint" class="dropdown">
+            <option value="">Select Start Point</option>
+            <!-- Options will be populated later -->
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="endPoint">Destination:</label>
+          <select id="endPoint" class="dropdown">
+            <option value="">Select Destination</option>
+            <!-- Options will be populated later -->
+          </select>
+        </div>
+
+        <button id="searchBtn" class="search-button">Search</button>
+      </div>
+    </header>
+
+    <p id="result"></p>
+
+    <script src="app.js"></script>
+    <!-- Link to external JavaScript -->
+  </body>
+</html>
